@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.bawei.liujie.xiangmu.control.activity.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        ></FrameLayout>
+
+    <RadioGroup
+        android:id="@+id/rsdiogroup"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/home"
+            android:gravity="center"
+            android:tag="0"
+            android:text="首页"
+            android:textColor="@drawable/colortext"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/weitao"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/weitao"
+            android:gravity="center"
+            android:tag="1"
+            android:text="分类"
+            android:textColor="@drawable/colortext"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/cart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/cart"
+            android:gravity="center"
+            android:tag="2"
+            android:text="购物车"
+            android:textColor="@drawable/colortext"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/user"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/user"
+            android:gravity="center"
+            android:tag="3"
+            android:text="个人"
+            android:textColor="@drawable/colortext"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+</LinearLayout>

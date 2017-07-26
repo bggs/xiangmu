@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/pop_together"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+       android:layout_marginLeft="10dp"
+        android:text="综合排序" />
+
+    <TextView
+        android:id="@+id/pop_person"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="26sp"
+        android:layout_margin="10dp"
+        android:text="人气排序" />
+
+    <TextView
+        android:id="@+id/pop_tall"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="价格从高到低" />
+
+    <TextView
+        android:id="@+id/pop_price"
+        android:layout_width="match_parent"
+        android:textSize="26sp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="价格从低到高" />
+</LinearLayout>
