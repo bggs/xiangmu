@@ -23,7 +23,7 @@ import java.util.List;
  */
 
 public class ShopActivity extends AppCompatActivity{
-    private String url = "http://169.254.35.154/mobile/index.php?act=goods&op=goods_detail&goods_id=100009";
+    private String url = "http://169.254.53.97/mobile/index.php?act=goods&op=goods_detail&goods_id=100009";
     private List<WatchData.DatasBean.GoodsCommendListBean> goods_commend_list = new ArrayList<>();
     private WatchData.DatasBean.GoodsInfoBean goodsInfoBean=new WatchData.DatasBean.GoodsInfoBean();
     private WatchData.DatasBean.GoodsHairInfoBean goodsHairInfoBean=new WatchData.DatasBean.GoodsHairInfoBean();

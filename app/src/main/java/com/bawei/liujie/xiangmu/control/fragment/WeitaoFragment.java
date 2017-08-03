@@ -31,8 +31,8 @@ import java.util.List;
  */
 
 public class WeitaoFragment extends Fragment {
-    private String url = "http://169.254.35.154/mobile/index.php?act=goods_class";
-    private String Secondurl = "http://169.254.35.154/mobile/index.php?act=goods_class";
+    private String url = "http://169.254.53.97/mobile/index.php?act=goods_class";
+    private String Secondurl = "http://169.254.53.97/mobile/index.php?act=goods_class";
     private ListView mListview,mSecondListview;
     private List<FirstData.DatasBean.ClassListBean> class_list = new ArrayList<>();
     private TextView mTextview;

@@ -30,7 +30,7 @@ import static com.bawei.liujie.xiangmu.R.id.pop_together;
  */
 
 public class GoodsActivity extends AppCompatActivity implements View.OnClickListener {
-    private String url = "http://169.254.35.154/mobile/index.php?act=goods&op=goods_list&page=100";
+    private String url = "http://169.254.53.97/mobile/index.php?act=goods&op=goods_list&page=100";
     private List<GoodsData.DatasBean.GoodsListBean> goods_list=new ArrayList<>();
     private ListView mlistview;
     private TextView mSort,mShaixuan;
